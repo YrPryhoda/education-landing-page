@@ -101,6 +101,7 @@ appData.detectLevel(appData.moneyPerDay);
 appData.mathSavings();
 appData.getOptExpences() ;
 appData.chooseIncome() ; */
+<<<<<<< HEAD
 
 function ask() {
   return prompt("Введите обязательную статью расходов в этом месяце?", "");
@@ -112,3 +113,13 @@ function answer() {
 
 
 console.log( "Ёжик" > "яблоко" );
+=======
+
+function ask() {
+  return prompt("Введите обязательную статью расходов в этом месяце?", "");
+}
+
+function answer() {
+  return prompt('Во сколько обойдется?', '1200');
+}
+>>>>>>> master
