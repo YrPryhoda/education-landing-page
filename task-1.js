@@ -1,16 +1,6 @@
 "use strict";
 let money, time;
 
-function start() {
-  money = +prompt("Ваш бюджет на месяц?", "15000");
-  time = prompt("Введите дату в формате YYYY-MM-DD?", "2019-08-21");
-
-  while (isNaN(money) || money == null || money == '') {
-    // isNan відает true, если в переменной не число
-    money = +prompt("Ваш бюджет на месяц?", "15000");
-  }
-}
-start();
 
 let appData = {
   money,
@@ -101,7 +91,6 @@ appData.detectLevel(appData.moneyPerDay);
 appData.mathSavings();
 appData.getOptExpences() ;
 appData.chooseIncome() ; */
-<<<<<<< HEAD
 
 function ask() {
   return prompt("Введите обязательную статью расходов в этом месяце?", "");
@@ -113,7 +102,6 @@ function answer() {
 
 
 console.log( "Ёжик" > "яблоко" );
-=======
 
 function ask() {
   return prompt("Введите обязательную статью расходов в этом месяце?", "");
@@ -122,4 +110,3 @@ function ask() {
 function answer() {
   return prompt('Во сколько обойдется?', '1200');
 }
->>>>>>> master
